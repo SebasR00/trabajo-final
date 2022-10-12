@@ -58,10 +58,10 @@ function login(params){
     
     if (email == 'cliente@test.com' || email == 'admin@test.com' ){
         if (email == 'cliente@test.com'){
-            location.href = "../pages/cliente/cliente.html";   
+            location.href = "../pages/admin/admin.html";   
         }
         if (email == 'admin@test.com'){
-            location.href = "../pages/admin/admin.html";   
+            location.href = "../pages/cliente/cliente.html";   
         }
     }else{
         alert('Credenciales erradas')
