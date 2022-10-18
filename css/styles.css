@@ -240,7 +240,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #cca000;
+  color: blue;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3156,12 +3156,12 @@ textarea.form-control-lg {
 }
 .btn-warning:hover {
   color: #fff;
-  background-color: #d9aa00;
+  background-color: #0045d9;
   border-color: #cca000;
 }
 .btn-check:focus + .btn-warning, .btn-warning:focus {
   color: #fff;
-  background-color: #d9aa00;
+  background-color: #0004d9;
   border-color: #cca000;
   box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5);
 }
@@ -4000,7 +4000,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  /* background-color: #ffc800; */
+   background-color: #ffc800; 
   background-color: blue;
 }
 
@@ -4805,7 +4805,7 @@ textarea.form-control-lg {
 .page-link {
   position: relative;
   display: block;
-  color: #ffc800;
+  color: blue;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -4836,8 +4836,8 @@ textarea.form-control-lg {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: blue;
+  border-color: blue;
 }
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -5033,7 +5033,7 @@ textarea.form-control-lg {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #ffc800;
+  background-color: blue;
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5116,8 +5116,8 @@ textarea.form-control-lg {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: blue;
+  border-color: blue;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -6463,7 +6463,7 @@ textarea.form-control-lg {
 }
 
 .link-warning {
-  color: #ffc800;
+  color: blue;
 }
 .link-warning:hover, .link-warning:focus {
   color: #cca000;
@@ -6888,7 +6888,7 @@ textarea.form-control-lg {
 }
 
 .border-primary {
-  border-color: #ffc800 !important;
+  border-color: blue !important;
 }
 
 .border-secondary {
@@ -6904,7 +6904,7 @@ textarea.form-control-lg {
 }
 
 .border-warning {
-  border-color: #ffc800 !important;
+  border-color: blue !important;
 }
 
 .border-danger {
@@ -11352,7 +11352,7 @@ p {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #ffc800;
+  color: blue;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   letter-spacing: 0.0625em;
@@ -11368,7 +11368,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: blue;
 }
 
 @media (min-width: 992px) {
@@ -11591,7 +11591,7 @@ header.masthead .masthead-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #ffc800;
+  background-color: blue;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
@@ -11749,7 +11749,7 @@ section#contact form#contactForm p.help-block {
   margin: 0;
 }
 section#contact form#contactForm .form-control:focus {
-  border-color: #ffc800;
+  border-color: blue;
   box-shadow: none;
 }
 section#contact form#contactForm ::-webkit-input-placeholder {
